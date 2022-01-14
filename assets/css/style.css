@@ -346,6 +346,11 @@ section {
   color: #A01619;
 }
 
+.maps iframe{
+  width: 900px;
+  height: 450px;
+}
+
 .card {
   position:absolute;
   width: 60%;
@@ -667,4 +672,8 @@ input[type=radio] {
     font-size: 14px;
   }
   
+  .maps iframe{
+    width: 400px;
+    height: 300px;
+  }
 }
