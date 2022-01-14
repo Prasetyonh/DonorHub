@@ -347,7 +347,7 @@ section {
 }
 
 .maps iframe{
-  width: 900px;
+  width: 60%;
   height: 450px;
 }
 
@@ -656,6 +656,10 @@ input[type=radio] {
   border-radius: 200px;
   }
 
+  .maps iframe{
+    width: 95%;
+  }
+
   #kontak h2{
     font-size: 26px;  
   }
@@ -672,8 +676,6 @@ input[type=radio] {
     font-size: 14px;
   }
   
-  .maps iframe{
-    width: 400px;
-    height: 300px;
-  }
+
+  
 }
