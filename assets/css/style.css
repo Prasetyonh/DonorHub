@@ -147,6 +147,7 @@ img.img-fluid.animated {
   #hero .hero-img img {
     width: 50%;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -175,7 +176,9 @@ img.img-fluid.animated {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
+
 }
+
 
 @-webkit-keyframes up-down {
   0% {
@@ -203,8 +206,8 @@ img.img-fluid.animated {
 
 .polkadot {
   margin: 0 auto;
-  width: 80rem;
-  height: 100rem;
+  width: 80%;
+  height: 100%;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   background-repeat: repeat-y;
@@ -214,7 +217,7 @@ img.img-fluid.animated {
 
 .glass {
   margin: 0 auto;
-  width: 75rem;
+  width: 75%;
 }
 
 .judul-1 {
@@ -239,16 +242,12 @@ img.img-fluid.animated {
   font-size: 25px;
 }
 
-.tentang iframe {
-  height: 400px;
-  width: 700px;
-}
 
 .container-manfaat {
   margin: 0 auto;
   background-color: #e1393a;
-  width: 80rem;
-  height: 60rem;
+  width: 80%;
+  height: 100%;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   margin-bottom: 70px;
@@ -256,16 +255,10 @@ img.img-fluid.animated {
 
 #manfaat {
   margin: 0 auto;
-  width: 55rem;
+  width: 75%;
 }
 
-#manfaat h2 {
-  padding-top: 60px;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
 
-}
 
 #manfaat p {
   color: white;
@@ -274,7 +267,7 @@ img.img-fluid.animated {
 }
 
 #alur {
-  width: 75rem;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -572,4 +565,106 @@ input[type=radio] {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  #navbarNav a {
+  color: #e1393a;
+  font-size: 16px;
+  }
+  #header {
+  padding: 30px 0;
+  }
+
+  .polkadot{
+    margin-top:30px ;
+    background-position: bottom;
+  }
+  .glass h2{
+    font-size: 24px;
+  }
+  #sub-judul{
+    font-size: 20px;
+  }
+  #tentang p {
+    font-size: 16px;
+  }
+  #tentang video{
+    height: 100%;
+    width: 100%;
+  }
+
+  #judul-syarat{
+    font-size: 20px;
+  }
+  #list li{
+    font-size: 16px;
+  }
+
+  .mengapa h3{
+    font-size: 24px;
+  }
+
+  #manfaat h2 {
+    font-size: 24px;
+  }
+  #manfaat p{
+    font-size: 16px;
+  }
+
+  #manfaat video{
+    height: 120%;
+    width: 120%;
+  }
+
+  #alur h2{
+    font-size: 24px;
+  }
+  #alur h3{
+    font-size: 20px;
+  }
+
+  #alur p{
+    font-size: 16px;
+  }
+
+  #alur video{
+    width: 120%;
+    height: 120%;
+  }
+  #lokasi h2{
+    font-size: 24px;
+  } 
+
+  #lokasi h5{
+    font-size: 18px;
+  } 
+
+  .card {
+    height: 40%;   
+  }
+  .maps{
+  padding-top: 400px;
+  border-radius: 200px;
+  }
+
+  #kontak h2{
+    font-size: 26px;  
+  }
+  
+  #kontak h3{
+    font-size: 22px;  
+  }
+  
+  #kontak h5{
+    font-size: 20px;  
+  }
+  
+  #footer{
+    font-size: 14px;
+  }
+  
 }
